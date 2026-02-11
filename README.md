@@ -1,4 +1,4 @@
-# 🤖 Bot de Telegram con Spring Boot
+#  Bot de Telegram con Spring Boot
 
 Bot de Telegram desarrollado con Spring Boot para la asignatura de Desarrollo de Aplicaciones Distribuidas.
 
@@ -13,7 +13,7 @@ Este proyecto implementa un bot de Telegram llamado **BryanBOOT** (@bryanboot_bo
 - Maven
 - Telegram Bots API 6.1.0
 
-## 📦 Requisitos Previos
+## 📦 Requisitos 
 
 - JDK 11 o superior
 - Maven 3.6+
@@ -53,30 +53,6 @@ El bot responde a los siguientes comandos:
 - `/info` - Información sobre el bot
 - Mensajes de texto - El bot responde confirmando que recibió el mensaje
 
-## 📁 Estructura del Proyecto
-```
-telegram-boot/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/demo/
-│   │   │       ├── TelegramBootApplication.java
-│   │   │       ├── config/
-│   │   │       │   └── BotConfig.java
-│   │   │       └── service/
-│   │   │           └── TelegramBotService.java
-│   │   └── resources/
-│   │       └── application.properties
-├── pom.xml
-└── README.md
-```
-
-## 🔧 Características
-
-- ✅ Respuesta automática a mensajes
-- ✅ Comandos personalizados
-- ✅ Logs en consola para debugging
-- ✅ Arquitectura modular con Spring Boot
 
 ## 👨‍💻 Autor
 
